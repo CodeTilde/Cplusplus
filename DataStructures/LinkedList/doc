@@ -1,0 +1,3 @@
+Linked list implementation using template based on "C++, How to Program"
+Template is an effective tool for software reusability. Using template, a piece of code can be used for different data types.
+Data types are introduced via a parameter in templates

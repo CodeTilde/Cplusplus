@@ -1,0 +1,7 @@
+
+Stack implementation based on Linked list.
+A stack works based on Last Input First Output (LIFO).
+The stack class is inherited from the Linked list class in private mode. 
+In private inheritance, the public and protected members of base class become private members of the class. 
+This means that they are accessible only inside the member functions of the derived class and not outside the class.
+

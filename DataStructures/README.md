@@ -1,0 +1,2 @@
+DataStructureCplus3
+Queue implementation based on Linked list (Template). A Queue works based on First Input First Output (FIFO). Queue class is inherited from the Linked list class in private mode. In private inheritance, the public and protected members of base class become private members of the class. This means that they are accessible only inside the member functions of the derived class and not outside the class.

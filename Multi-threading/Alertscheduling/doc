@@ -1,1 +1,9 @@
 
+This folder contains programs for producing scheduling alerts and notifications.
+A multithreading approach has been used. 
+join() waits until thread function returns. A thread function having  
+while (1)
+{
+}
+waits for ever. 
+Without using join for a thread,  the main/current thread completes its excution while the created thread is still running (run time error).  

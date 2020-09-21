@@ -1,4 +1,8 @@
 # Multithreading
 Thread: an executable unit to perform a task.
-in a single core system, there is a time scheduling for serving multiple threads. Time is divided between threads and the operating system sends in succession a certain number of instructions from each thread to the processor for execution. The threads may share some resources in the system. A race and ambiguous condition might occur when two or more threads use a common resource. Mutex, Locks and Semaphores are synchronization tools for managing resources between threads.
+in a single core system, there is a time scheduling for serving multiple threads. 
+Time is divided between threads and the operating system sends in succession a certain number of instructions from each thread 
+to the processor for execution. The threads may share some resources in the system.
+A race and ambiguous condition might occur when two or more threads use a common resource. Mutex, Locks and Semaphores are synchronization tools 
+for managing resources between threads.
 

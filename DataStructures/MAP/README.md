@@ -6,7 +6,7 @@ Problem: having a vector of elemnts e.g. 1 2 3 4 3 2 5 6..  We want to count all
 (3,4) (3,3) (3, 2) (3,5) (3,6)  
 (2, 5) (2,6)  
 (5,6)
-1. mapofvector.cpp: We put the vector elements in a map of of vector
+1. mapofvector.cpp: We put the vector elements in a map of  vector
 2. mapofmap.cpp: We put the vector element in a map of map
 
   

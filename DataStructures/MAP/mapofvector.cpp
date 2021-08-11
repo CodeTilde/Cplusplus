@@ -11,25 +11,24 @@ map<int, vector<int>> mymap;
 cin >> N;
 map<int, vector<int>>::iterator itr;
 vector<int> temp_vec;
+// Reading the numbers and putting them in a vector 
 for (int i = 0; i < N; i++)
 {
 cin >> temp;
 vec.push_back(temp);
 }
+//Placing the vector elemnts in a map 
+// e.g. for a vector of numbers such as   1 2 3 4 3 2 5 6
+// 1 is a key and the map value is the vector 2, 3, 4, 5, 6  
+// 2 is a key and the map value is the vector 3, 4, 2, 5, 6
+//...
 for (int i = 0; i < N - 1; i++)
-for (int j = i + 1; j < N; j++)
-{
+  //vec[i] indicates the key and vec[j] indicates an element of the vector (map value)
+  for (int j = i + 1; j < N; j++)
+     // for each key (vec[i]) the map value which is a vector is checked to avoid repetetive elements.
+    if (find(mymap[vec[i]].begin(), mymap[vec[i]].end(), vec[j]) == mymap[vec[i]].end())//it implicitly insert the key only the key .
+      mymap[vec[i]].push_back(vec[j]);
 
-
-
-if (find(mymap[vec[i]].begin(), mymap[vec[i]].end(), vec[j]) == mymap[vec[i]].end())//it implicitly insert the key only the key .
-{
-
-mymap[vec[i]].push_back(vec[j]);
-}
-
-
-}
 int sum = 0;
 
 for (itr = mymap.begin(); itr != mymap.end(); itr++)
@@ -39,6 +38,5 @@ sum += temp_vec.size();
 }
 
 cout << sum;
-cin >> N;
 return 0;
 }

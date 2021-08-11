@@ -17,7 +17,7 @@ for (int i = 0; i < N; i++)
 cin >> temp;
 vec.push_back(temp);
 }
-//Placing the vector elemnts in a map 
+//Placing the vector elements in a map 
 // e.g. for a vector of numbers such as   1 2 3 4 3 2 5 6
 // 1 is a key and the map value is the vector 2, 3, 4, 5, 6  
 // 2 is a key and the map value is the vector 3, 4, 2, 5, 6

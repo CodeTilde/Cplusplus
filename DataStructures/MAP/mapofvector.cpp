@@ -26,7 +26,7 @@ for (int i = 0; i < N - 1; i++)
   //vec[i] indicates the key and vec[j] indicates an element of the vector (map value)
   for (int j = i + 1; j < N; j++)
      // for each key (vec[i]) the map value which is a vector is checked to avoid repetetive elements.
-    if (find(mymap[vec[i]].begin(), mymap[vec[i]].end(), vec[j]) == mymap[vec[i]].end())//it implicitly insert the key only the key .
+    if (find(mymap[vec[i]].begin(), mymap[vec[i]].end(), vec[j]) == mymap[vec[i]].end())
       mymap[vec[i]].push_back(vec[j]);
 
 int sum = 0;

@@ -1,3 +1,9 @@
+//Traversing a maze of size R*C: counting numbers of paths from  the topmost-leftmost cell to the rightmost-bottommost cell.  
+//Obstacles are denoted by 1.
+//Allowed directions for movement : (i,j) -> (i,j+1), (i,j)->(i+1,j)].
+//Solved by dynamic programming O(R*C).
+
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

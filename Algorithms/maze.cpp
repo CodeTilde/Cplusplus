@@ -3,7 +3,6 @@
 //Allowed directions for movement : (i,j) -> (i,j+1), (i,j)->(i+1,j)].
 //Solved by dynamic programming O(R*C).
 
-
 #include <iostream>
 #include <algorithm>
 #include <vector>
